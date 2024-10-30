@@ -1,5 +1,5 @@
 body {
-    background-color: aquamarine;
+    background-color: white;
 }
 
 * {
@@ -12,7 +12,7 @@ nav {
     margin: 0;
     display: flex;
     justify-content: space-between;
-    background-color: #578c7b;
+    background-color: #c9d0ce;
     /*background-image: linear-gradient(to top, #3167b8, #82478b, #8f3352, #793622, #523d05);
     */
     padding: 15px;
@@ -31,7 +31,7 @@ nav {
     font-family: 'Roboto', sans-serif;
     padding-left: 155px;
     transition: transform 0.3s ease;
-    color: #fff;
+    color: black;
     font-size: 22px;
     font-weight: bold;
     text-transform: uppercase;
@@ -79,15 +79,15 @@ nav {
 }
 
 .linnk{
-    font-size: 25px;
+    font-size: 20px;
 }
 
 a{
-    color: wheat;
+    color: black;
 }
 
 .titlemsa {
-    font-family: cursive;
+    font-family: 'Roboto', sans-serif;
 }
 
 .image-container {
@@ -109,7 +109,7 @@ a{
 .text-overlay {
     position: absolute;
     top: 15%;
-    right: 5%;
+    right: 30%;
     transform: translateY(-50%);
     padding: 10px;
     max-width: 50%;
@@ -127,7 +127,7 @@ p {
     grid-template-columns: repeat(3, 400px);
     grid-template-rows: repeat(2, 300px);
     grid-gap: 25px;
-    background-color: #578c7b;
+    background-color: #b3bcb9;
     padding: 20px;
     border-radius: 5%;
 }
@@ -176,13 +176,13 @@ p {
 .click-more {
     cursor: pointer;
     font-size: 18px;
-    color: blue;
+    color: black;
 }
 .contact{
     align-items: center;
     display: flex;
     justify-content: center;
-    background-color: cadetblue;
+    background-color: rgb(213, 220, 220);
     border-radius: 5px;
     width: 100%;
     padding: 10px;
